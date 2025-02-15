@@ -1,0 +1,18 @@
+print("add")
+print("subtract")
+print("multiply")
+print("divide")
+x = input("choose an operation: ")
+if x in ["add","subtract","multiply","divide"]:
+    number1 = int(input("type a number :"))
+    number2 = int(input("type a number :"))
+    if (x == ("add")):
+        print(number1+number2)
+    elif (x ==("subtract")):
+        print(number1-number2)
+    elif (x == ("multiply")):
+        print(number1 * number2)
+    elif (x == ("divide")):
+        print(number1 // number2)
+else:
+    print("invalid entery")
